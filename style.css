@@ -197,8 +197,28 @@ nav{
 .blog-item h3{
     margin: 10px 0;
 }
-
-
+/* ===============sponsor-area========== */
+.section-title{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+.section-title h2{
+    font-size: 30px;
+}
+.section-title p{
+    font-size: 15px;
+    color: #727272;
+    margin: 10px 0;
+}
+.sponsor-section{
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-section img{
+    width: 9%;
+    margin: 10px 0;
+}
 
 
 /* =============Mobile-Responsive========= */
@@ -231,8 +251,16 @@ nav{
     .btn-2{
         display: none;
     }
-    .fact-area, .blog-area,.feature-area{
+    .fact-area, .blog-area,.feature-area,.sponsor-section{
         flex-direction: column;
         padding: 5px;
+    }
+    .section-title{
+        width: 100%;
+        
+    }
+    .sponsor-section img{
+        width: 50%;
+        margin: 10px auto;  
     }
 }
