@@ -219,7 +219,18 @@ nav{
     width: 9%;
     margin: 10px 0;
 }
-
+/* =========footer========== */
+.footer{
+    background-color: #FFF4E7;
+    padding: 15px 30px;
+    text-align: center;
+    color: #727272;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.footer p{
+    font-size: 14px;
+}
 
 /* =============Mobile-Responsive========= */
 @media screen and (max-width:576px){
@@ -261,6 +272,6 @@ nav{
     }
     .sponsor-section img{
         width: 50%;
-        margin: 10px auto;  
+        margin: 15px auto;  
     }
 }
