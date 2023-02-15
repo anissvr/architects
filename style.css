@@ -61,13 +61,52 @@ nav{
     color: white;
     border-radius: 8px;
     margin: 10px 0;
-    font-weight: 600;
     display: inline-block;
 }
 .banner{
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
+}
+/* =========gallery-area=========== */
+.gallery-area{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.gallery-area > div{
+    flex: 1;
+}
+.img-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.img-section img{
+    width: 100%;
+    border-radius: 5px;
+}
+.contant-section{
+    padding-left:30px ;
+}
+.contant-section h2{
+   font-size: 40px;
+   color: #131313;
+}
+.contant-section p{
+    font-size: 15px;
+    margin: 10px 0;
+    color: #727272;
+    line-height: 26px;
+}
+
+.gray-color{
+    color: #727272;
+    font-weight: 500;
+}
+.orange-color{
+    color: #FF900E;
+
 }
 
 /* =============Mobile-Responsive========= */
@@ -88,4 +127,11 @@ nav{
     .hero-section h1{
         font-size: 30px;  
     }
+    .gallery-area{
+        flex-direction: column;
+    }
+    .contant-section h2{
+        font-size: 30px;
+        
+     }
 }
